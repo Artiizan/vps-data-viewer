@@ -5,6 +5,7 @@
       "name": "Python: Streamlit",
       "type": "debugpy",
       "request": "launch",
+      "preLaunchTask": "dependencies",
       "module": "streamlit",
       "env": {
         "STREAMLIT_ENV": "development"
